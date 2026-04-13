@@ -4,13 +4,22 @@ import "./App.css";
 // в файл, в котором лежит компонент, внутри которого (App.jsx) мы будем использовать импортируемый
 import Button from "./componets/Button/Button";
 
+// Импорты лекций
+// import Lesson02 from "./lessons/Lesson02/Lesson02";
+import Lesson04 from "./lessons/Lesson04/Lesson04";
+
 function App() {
   return (
     <div className="app">
-      <p>My first React app</p>
+      {/* Лекция 1. Introduction */}
+      {/* <p>My first React app</p> */}
       {/* Вызов компонента Button */}
-      <Button />
-      <Button />
+      {/* <Button />
+      <Button /> */}
+
+      {/* Лекция 2. Components */}
+      {/* <Lesson02 /> */}
+      <Lesson04 />
     </div>
   );
 }
